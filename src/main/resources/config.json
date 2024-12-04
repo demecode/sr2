@@ -1,0 +1,22 @@
+{
+  "webuyanycar": {
+    "url": "https://www.webuyanycar.com",
+    "searchBoxLocator": "id:vehicleReg",
+    "searchButtonLocator": "id:btn-go",
+    "cookiesLocator": "id:onetrust-accept-btn-handler",
+    "mileageLocator": "id:Mileage",
+    "variantLocator": "xpath:xpath=(.//*[normalize-space(text()) and normalize-space(.)='Image for illustrative purposes only'])[4]/following::div[1]",
+    "makeLocator": "xpath:xpath=//div[@id='wbac-app-container']/div/div/vehicle-questions/div/section/div/div/div/div[3]/div/vehicle-details/div[3]/div[2]/div/div[2]",
+    "modelLocator": "xpath:xpath=//div[@id='wbac-app-container']/div/div/vehicle-questions/div/section/div/div/div/div[3]/div/vehicle-details/div[3]/div[2]/div[2]/div[2]",
+    "yearLocator": "xpath:xpath=//div[@id='wbac-app-container']/div/div/vehicle-questions/div/section/div/div/div/div[3]/div/vehicle-details/div[3]/div[2]/div[3]/div[2]"
+
+
+  },
+  "autotrader": {
+    "url": "https://www.autotrader.co.uk",
+    "searchBoxLocator": "id:vehicleReg",
+    "searchButtonLocator": "id:btn-go",
+    "cookiesLocator": "id:onetrust-accept-btn-handler",
+    "mileageLocator": "id:Mileage"
+  }
+}
